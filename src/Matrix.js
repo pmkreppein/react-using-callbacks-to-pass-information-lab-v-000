@@ -33,7 +33,7 @@ setNewColor = (newColor) => {
   render() {
     return (
       <div id="app">
-        <ColorSelector />
+         <ColorSelector setNewColor={this.setNewColor} />
         <div id="matrix">
           {this.genMatrix()}
         </div>
